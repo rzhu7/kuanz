@@ -1,0 +1,23 @@
+ <vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1024dp"
+    android:height="1024dp"
+    android:viewportWidth="1024"
+    android:viewportHeight="1024">
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M512,256m-85.3,0a85.3,85.3 0,1 0,170.7 0,85.3 85.3,0 1,0 -170.7,0Z"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M199.1,341.3m-85.3,0a85.3,85.3 0,1 0,170.7 0,85.3 85.3,0 1,0 -170.7,0Z"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M824.9,341.3m-85.3,0a85.3,85.3 0,1 0,170.7 0,85.3 85.3,0 1,0 -170.7,0Z"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M824.9,483.6c-25.6,0 -48.4,8.5 -71.1,19.9l-241.8,142.2 -241.8,-142.2c-22.8,-11.4 -45.5,-19.9 -71.1,-19.9 -79.6,0 -142.2,62.6 -142.2,142.2v227.6h284.4v-176.4l142.2,85.3c5.7,2.8 8.5,5.7 14.2,5.7s8.5,2.8 14.2,2.8 8.5,0 14.2,-2.8c5.7,0 8.5,-2.8 14.2,-5.7l142.2,-85.3V853.3h284.4v-227.6c0,-79.6 -62.6,-142.2 -142.2,-142.2z"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M512,580.3l136.5,-79.6c-17.1,-56.9 -71.1,-99.6 -136.5,-99.6s-116.6,42.7 -136.5,99.6l136.5,79.6z"/>
+</vector>
+
+ <!-- from https://www.veryicon.com/icons/business/classic-icon/community-12.html -->

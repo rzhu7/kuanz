@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/footer_grocery"
+        android:icon="@drawable/footer_grocery_icon"
+        android:title="@string/grocery_nav_bar" />
+
+    <item
+        android:id="@+id/footer_transpotation"
+        android:icon="@drawable/footer_transportation_icon"
+        android:title="@string/transportation_nav_bar" />
+
+    <item
+        android:id="@+id/footer_community"
+        android:icon="@drawable/footer_community_icon"
+        android:title="@string/community_nav_bar" />
+
+</menu>

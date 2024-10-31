@@ -1,0 +1,29 @@
+{
+    "project_info": {
+      "project_number": "1037617123456",
+      "project_id": "our-compound-424105-d3",
+      "storage_bucket": "our-compound-424105-d3.appspot.com"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:1037617123456:android:3d54c464f0ebda63c0d665",
+          "android_client_info": {
+            "package_name": "org.overlake.finalproject"
+          }
+        },
+        "oauth_client": [],
+        "api_key": [
+          {
+            "current_key": "REDACT"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": []
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }

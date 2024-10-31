@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/header_dropdown_grocery_about"
+        android:title="About" />
+
+    <item
+        android:id="@+id/header_dropdown_grocery_lists"
+        android:title="Lists" />
+
+    <item
+        android:id="@+id/header_dropdown_grocery_map"
+        android:title="Map" />
+
+    <item
+        android:id="@+id/header_dropdown_grocery_resources"
+        android:title="Resources" />
+
+</menu>

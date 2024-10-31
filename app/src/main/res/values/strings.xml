@@ -1,0 +1,54 @@
+<resources>
+
+    <string name="app_name">FinalProject</string>
+
+    <string name="title">Kuanz</string>
+    <string name="welcome_msg">Welcome to Kuanz</string>
+    <string name="grocery_nav_bar">Grocery</string>
+    <string name="transportation_nav_bar">Transportation</string>
+    <string name="community_nav_bar">Community</string>
+
+    <string name="menu_dropdown_title1">About</string>
+    <string name="menu_dropdown_title2">Instructions</string>
+    <string name="menu_dropdown_title3">Dashboard</string>
+    <string name="menu_dropdown_title4">Map</string>
+    <string name="menu_dropdown_title5">Resources</string>
+
+    <string name="google_maps_key">REDACTED</string>
+
+    <string name="grocery_about">Get free assistance finding the most economical choices on all your shopping needs. Kuanz lets you build customized errand lists and analyzes up-to-date prices from local supermarkets so you always get the best deal. Simply enter the generic names of desired items into the easy-to-use interface located under Your Shopping in the Shopping tab. Head over to Map and view a personalized map of nearby supermarkets selling the products on your lists, complete with estimated prices at each location.</string>
+    <string name="grocery_instructions">In your dashboard, create a list. Then click on that list. Add items to that list. In the map, select the list you want, input a valid zip code and radius (ideally 10 to 30). The map will show you the five cheapest grocery stores that carry your products. If you click on the markers, you can see the price ranks, with 1 being the cheapest and 5 being the most expensive.</string>
+    <string name="grocery_resources">Check back later for grocery-related resources!</string>
+
+    <string name="fragment_grocery_list_of_entries_button_back">Back to All Lists</string>
+    <string name="fragment_grocery_list_of_lists_button_done">Done</string>
+    <string name="fragment_grocery_map_button_show_map">Show Map</string>
+    <string name="grocery_list_of_lists_item_button_delete">Delete</string>
+    <string name="grocery_list_of_entries_button_delete">Delete</string>
+    <string name="fragment_grocery_map_select_list_dialog_hint_zipcode">Zip Code</string>
+    <string name="fragment_grocery_map_select_list_dialog_hint_radius">Radius</string>
+
+    <string name="transportation_about">Find everything you need in commute-related dashboard. Kuanz centralizes information on today\'s gas prices, nearby public transportation lines, and wallet-friendly alternatives so you can commute with ease every day. See current fuel prices at nearby gas stations and estimated costs for public transportation under Your Transportation in the Transportation tab. Grant location permissions and easily visualize your choices under Map. Click on the Information icon to save big with Kuanz\'s alternative transportation tips and feel good about your commute with resources for building environmental sustainability into your routines.</string>
+    <string name="transportation_instructions">In your dashboard, view current average gas prices in the Greater Seattle Area. Navigate to the map and input a specific location to view Puget Sound public transportation stations within walking distance. Alternatively, just click Search with blank latitude and longitude entries to see public transportation stations near UW</string>
+    <string name="transportation_dashboard_gas"><u>Gas Today</u></string>
+    <string name="transportation_dashboard_gas_regular">Regular: %s</string>
+    <string name="transportation_dashboard_gas_midGrade">MidGrade: %s</string>
+    <string name="transportation_dashboard_gas_premium">Premium: %s</string>
+    <string name="transportation_dashboard_gas_diesel">Diesel: %s</string>
+    <string name="transportation_dashboard_public_transport"><u>Public Transportation</u></string>
+    <string name="transportation_dashboard_other"><u>Other</u></string>
+    <string name="transportation_dashboard_light_rail">Link Light Rail: $2.25 to $3.50</string>
+    <string name="transportation_dashboard_bus">Metro Transit: $2.75</string>
+    <string name="transportation_dashboard_sounder_train">Sounder Train: $3.25 to $5.75</string>
+    <string name="transportation_dashboard_bike_and_scooter"><![CDATA[Bike & Scooter Sharing: $0.15 to $0.36 per minute]]></string>
+    <string name="transportation_dashboard_EV_charging">EV Charging: $0.00 to $0.10 per hour</string>
+    <string name="transportation_dashboard_vanpool">Vanpool Program: $0.60 per mile</string>
+    <string name="transportation_resources">Further Resources\n\n\nMetro Transit:\nhttps://kingcounty.gov/en/dept/metro/travel-options/bus\n\nPuget Sound Transit:\nhttps://www.soundtransit.org/ride-with-us/how-to-pay/fares\n\nTransition to Electric:\nhttps://ev.pse.com/incentives\n\nKing County Vanpool Program:\nhttps://kingcounty.gov/en/dept/metro/travel-options/vanpool-and-vanshare/vanpool</string>
+
+    <string name="transportation_map_btn_search">Search</string>
+    <string name="transportation_map_hint_latitude">Latitude</string>
+    <string name="transportation_map_hint_longitude">Longitude</string>
+
+    <string name="error_message">An error occurred!</string>
+
+</resources>

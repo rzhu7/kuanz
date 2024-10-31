@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/gas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/transportation_dashboard_gas"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:orientation="vertical"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/gas"
+        tools:layout_editor_absoluteX="10dp">
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/gas_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/gas_midGrade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/gas_premium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/diesel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.33" />
+
+    <TextView
+        android:id="@+id/public_transport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/transportation_dashboard_public_transport"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:orientation="vertical"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/public_transport"
+        tools:layout_editor_absoluteX="10dp">
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/bus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/transportation_dashboard_bus" />
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/light_rail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/transportation_dashboard_light_rail" />
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/sounder_train"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/transportation_dashboard_sounder_train" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6689466" />
+
+    <TextView
+        android:id="@+id/other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/transportation_dashboard_other"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:orientation="vertical"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/other"
+        tools:layout_editor_absoluteX="10dp">
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/bike_scooter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transportation_dashboard_bike_and_scooter" />
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/EV_charging"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transportation_dashboard_EV_charging" />
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/vanpool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transportation_dashboard_vanpool" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
